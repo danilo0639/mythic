@@ -1,0 +1,28 @@
+ {%- for block in section.blocks -%}
+
+   {%-if  block.settings.Text-Camp == false -%}
+        <div class="header__buttons" >
+              {%- if block.settings.button_label != blank -%}
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+              {%- endif -%}
+        </div>
+    
+    
+   {%- else -%}
+     
+       
+              {%- if block.settings.button_label != blank -%}
+                 <div class="container_button_icon_text" >
+                <div> 
+                <a class="header__text" {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >{{ block.settings.button_label }}</a>
+                </div>
+               <div class="header__icon">
+                {%- render 'Icon-Tel' -%}
+                </div>
+                      </div>
+              {%- endif -%}
+     
+
+   {%- endif -%}
+   
+        {%- endfor -%}
