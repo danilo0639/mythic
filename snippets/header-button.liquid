@@ -12,9 +12,9 @@
      
        
               {%- if block.settings.button_label != blank -%}
-                   <div  >
-                     <div class="container_button_icon_text"> 
-                           <div class="container_icon_text">
+                   <div class="container_button_icon_text" >
+                     <div class="container_icon_text"> 
+                           <div >
                               <a class="header__text" {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >{{ block.settings.button_label }}</a>
                            </div>
                            <div>
