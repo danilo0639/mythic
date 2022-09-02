@@ -1,13 +1,13 @@
 {
   "current": {
     "colors_solid_button_labels": "#be1313",
-    "colors_accent_1": "#00bedc",
+    "colors_accent_1": "#f10909",
     "gradient_accent_1": "",
     "colors_accent_2": "#1041ef",
     "gradient_accent_2": "",
     "colors_text": "#fff",
     "colors_outline_button_labels": "#0fc473",
-    "colors_background_1": "#0caff9",
+    "colors_background_1": "#09f17f",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
@@ -124,9 +124,11 @@
           "d2e9758a-4ba8-4b92-adfd-327bbb43c1a5": {
             "type": "buttons",
             "settings": {
-              "button_label": "Button label",
+              "button_label": "TEXT OR CALL",
+              "button_label2": "<b>201-988-8476<\/b>",
               "button_link": "shopify:\/\/collections\/all",
-              "button_style_secondary": false
+              "button_style_secondary": false,
+              "Text-Camp": true
             }
           }
         },
@@ -135,10 +137,10 @@
         ],
         "settings": {
           "color_scheme": "inverse",
-          "logo": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-08-31_a_la_s_12.50.00_p.m..png",
+          "logo": "shopify:\/\/shop_images\/Captura_de_Pantalla_2022-09-01_a_la_s_9.33.53_p.m..png",
           "logo_width": 90,
           "logo_position": "middle-left",
-          "menu": "menu-con-el-gordo",
+          "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
@@ -167,8 +169,8 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "my",
+              "subtext": "<p>ghcgcghcg<\/p>"
             }
           }
         },
