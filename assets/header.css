@@ -1,7 +1,6 @@
 
 .header__buttons {
   display: flex;
- 
   gap: 1rem;
   
   
@@ -22,7 +21,7 @@
 @media screen and (max-width: 700px){
 	.container_button_icon_text {
 
-		position: absolute;
+		position: relative;
     	
     	
     }
