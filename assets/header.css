@@ -35,3 +35,9 @@
  
 
 }
+.container_icon_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
