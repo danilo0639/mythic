@@ -26,7 +26,16 @@
      text-decoration: none;
      word-wrap: break-word;
      background-color: blue;
-     
+
+}
+.container__text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  background-color: rebeccapurple;
+
 }
 
 .container_button_icon_text{
@@ -34,14 +43,5 @@
   margin-right: 10px;
   background-color: aqua;
  
-
-}
-.container_icon_text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  
-  background-color: rebeccapurple;
 
 }
