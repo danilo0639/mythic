@@ -936,6 +936,10 @@
               "label": " Button Label",
               "info": "Leave the label blank to hide the button."
             },
+            "button_label2": {
+              "label": " Button Label",
+              "info": "Leave the label blank to hide the button."
+            },
             "button_link": {
               "label": " Button Link"
             },
