@@ -18,7 +18,7 @@
                               <a class="header__text" {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >{{ block.settings.button_label }}</a>
                            </div>
                            <div>
-                            <a  {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >{{ block.settings.button_label2 }}</a>
+                            <a  class="header__text" {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >{{ block.settings.button_label2 }}</a>
                          </div>
                        </div>
 
