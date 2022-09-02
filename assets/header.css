@@ -21,7 +21,7 @@
 @media screen and (max-width: 700px){
 	.container_button_icon_text {
 
-		position: relative;
+		width: 100px;
     	
     	
     }
